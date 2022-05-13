@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    
+    
+margin: 0;
+
+    font-family: 'Helvetica', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+section{
+        
+
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.nav{
+    
+    display: flex;
+    gap: 200px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #B64446;
+    transition: .2s;
+
+}
+
+.nav a:hover{
+    opacity: .6;
+    transition: .2s;
+}
+
+.sone{
+    background-color: #E7E6E6;
+    color: #383839;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.stwo{
+    background-color: #383839;
+    color: #E7E6E6;
+}
+
+
+
+.logo{
+height: 350px;
+    width: 268px;
+    
+    overflow: hidden
+}
+
+.logo img{
+    height: 100%;
+}
+
+
+.button{
+
+    
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    
+    padding: 15px 30px;
+   -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border: 1px solid #383839;
+    transition: .2s;
+
+}
+
+.button:hover{
+    background-color: #383839;
+    color: white;
+    transition: .2s;
+}
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+
+iframe{
+    width: 100%;
+    height: 400px;
+       position: relative;
+        left: 50%;
+    transform: translateX(-50%);
+    border: none;
+}
+
+
+
+.ok{
+    color: #E7E6E6;
+    border: 1px solid #E7E6E6;
+}
+
+.ok:hover{
+    color: #383839;
+    background-color: #E7E6E6;
+
+}
+
+.title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.containertwo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    
+    max-width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+        background-color: #383839;
+    color: #E7E6E6;
+}
+
+.btntwo{
+       position: relative;
+        left: 50%;
+    transform: translateX(-50%);
+}
+
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+
+
+.sthree{
+    background-color: #E7E6E6;
+    color: #383839;
+}
+.containerthree{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    
+    max-width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ p{
+    font-size: 1.2rem;
+    text-align: justify;
+ }
+
+
+
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+
+
+
+#myBtn {
+    transition: .2s;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #383839; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  width: 70px;
+  height: 40px;
+  
+  font-size: 1rem; /* Increase font size */
+}
+
+#myBtn:hover {
+    transition: .2s;
+  background-color: #E7E6E6; /* Add a dark-grey background on hover */
+  color: #383839;
+}
+
+
+footer{
+    
+    
+    font-size: .8rem;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+
+
+@media (max-width: 800px) {
+    .nav{
+        font-size: 1.5rem;
+        gap: 20px;
+    }
+    .title{
+        padding-left: 20px;
+    }
+    iframe, p{
+        padding: 0 20px;
+
+    }
+}
