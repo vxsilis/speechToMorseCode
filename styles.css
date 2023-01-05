@@ -5,11 +5,13 @@
 margin: 0;
 
     font-family: 'Helvetica', sans-serif;
-    overflow-x: hidden;
+
     
 }
 
-
+body{
+    overflow-x: hidden;
+}
 section{
         
 
@@ -50,6 +52,7 @@ a{
 
 
 .stwo{
+    align-items: center;
     background-color: #383839;
     color: #E7E6E6;
 }
@@ -76,9 +79,7 @@ height: 350px;
     text-align: center;
     
     padding: 15px 30px;
-   -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+
     border: 1px solid #383839;
     transition: .2s;
 
@@ -123,6 +124,7 @@ iframe{
 }
 
 .containertwo{
+    align-items: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -136,11 +138,7 @@ iframe{
     color: #E7E6E6;
 }
 
-.btntwo{
-       position: relative;
-        left: 50%;
-    transform: translateX(-50%);
-}
+
 
 /*****************************/
 /*****************************/
@@ -150,10 +148,12 @@ iframe{
 
 
 .sthree{
+
     background-color: #E7E6E6;
     color: #383839;
 }
 .containerthree{
+    align-items: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -177,29 +177,31 @@ iframe{
 /*****************************/
 /*****************************/
 
-
+.video{
+    width: 100%;
+}
 
 #myBtn {
     transition: .2s;
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #383839; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #383839; 
+  color: white; 
+  cursor: pointer; 
   width: 70px;
   height: 40px;
   
-  font-size: 1rem; /* Increase font size */
+  font-size: 1rem; 
 }
 
 #myBtn:hover {
     transition: .2s;
-  background-color: #E7E6E6; /* Add a dark-grey background on hover */
+  background-color: #E7E6E6; 
   color: #383839;
 }
 
