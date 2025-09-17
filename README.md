@@ -3,7 +3,7 @@
 <h3 align="center">Speech to Morse Code</h3>
 
   <p align="center">
-  is a matlab app created by Vasileios Gavriilidis and Georgios Rossis. It was developed under the “Speech Processing” course of Ionian University using the Google Cloud Speech to text API. The are 2 different language options - greek and english - and a lot of output customisation as frequency, character speed and transmission sound.</a>
+  is a matlab app that was developed under the “Speech Processing” course of Ionian University using the Google Cloud Speech to text API. The are 2 different language options - greek and english - and a lot of output customisation as frequency, character speed and transmission sound.</a>
     <br />
     <br />
   </p>
